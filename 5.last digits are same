@@ -1,0 +1,25 @@
+import java.util.*;
+class Main{
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int ar=0;
+        int br=0;
+        while(a!=0){
+            int t=a%10;
+            ar=t;
+            break;
+        }
+        while(b!=0){
+            int t=b%10;
+            br=t;
+            break;
+        }
+        if(ar==br){
+            System.out.println("True");
+        }else{
+            System.out.println("False");
+        }
+    }
+}
